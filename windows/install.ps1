@@ -5,16 +5,17 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 # And Install Choco Packages
-choco install googlechrome
-choco install git
-choco install steam
-choco install vscode
 choco install docker-desktop
 choco install firacode
-choco install visualstudio2019professional
+choco install git
+choco install googlechrome
 choco install istioctl
-choco install telegram
 choco install lens
+choco install visualstudio2019professional
+choco install vscode
+choco install telegram
+choco install steam
+choco install ssms
 
 # Install PowerShell Modules
 Install-Module posh-git -Scope CurrentUser
