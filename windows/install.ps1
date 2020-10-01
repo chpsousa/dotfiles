@@ -13,6 +13,7 @@ choco install istioctl
 choco install lens
 choco install visualstudio2019professional
 choco install vscode
+choco install postman
 choco install telegram
 choco install steam
 choco install ssms
